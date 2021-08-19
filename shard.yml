@@ -1,0 +1,10 @@
+name: dropsort
+version: 1.0.0
+description: An implementation of the Dropsort sorting alrorithm designed by David Morgan-Mar
+
+authors:
+  - Hannes Braun <hannesbraun@mail.de>
+
+crystal: 1.1.1
+
+license: MIT
