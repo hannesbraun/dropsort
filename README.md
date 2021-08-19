@@ -33,7 +33,7 @@ some_numbers = [0, 15, 8, 42, -9]
 Dropsort.dropsort_inplace(some_numbers)
 ```
 
-Additionally, to can specify the sorting order with `Dropsort::Order::Ascending` or `Dropsort::Order::Descending`. Per default, the array will be sorted in ascending order.
+Additionally, you can specify the sorting order with `Dropsort::Order::Ascending` or `Dropsort::Order::Descending`. Per default, the array will be sorted in ascending order.
 
 ## Development
 
@@ -46,7 +46,7 @@ Additionally, to can specify the sorting order with `Dropsort::Order::Ascending`
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new pull Request
+5. Create a new pull request
 
 ## Contributors
 
