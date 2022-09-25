@@ -1,15 +1,15 @@
 # Dropsort
 
-This is an implementation of the [Dropsort sorting alrorithm designed by David Morgan-Mar](https://www.dangermouse.net/esoteric/dropsort.html). It is written for the Crystal programming language.
+This is an implementation of the [Dropsort sorting algorithm designed by David Morgan-Mar](https://www.dangermouse.net/esoteric/dropsort.html). It is written for the Crystal programming language.
 The main things to know about the algorithm are:
 - it's lossy: sorting does eliminate some of the original elements
 - it's quite fast: we're talking about a complexity of O(n)
 
-*Yes, this is a really small library. You could also just implement this yourself. To be honest, this was/is more some kind of a test project to get to know Crystal. However, this does not mean that the library isn't usable.*
+*Yes, this is a really small library. You could also just implement this yourself. To be honest, this was more of a test project to get to know Crystal. However, this does not mean that the library isn't usable.*
 
 ## Installation
 
-1. Add the dependency to your `shard.yml`:
+1. Add the following dependency to your `shard.yml` file:
 
   ```yaml
   dependencies:
@@ -33,7 +33,7 @@ some_numbers = [0, 15, 8, 42, -9]
 Dropsort.dropsort_inplace(some_numbers)
 ```
 
-Additionally, you can specify the sorting order with `Dropsort::Order::Ascending` or `Dropsort::Order::Descending`. Per default, the array will be sorted in ascending order.
+Additionally, you can specify the sorting order with `Dropsort::Order::Ascending` or `Dropsort::Order::Descending`. By default, the array will be sorted in ascending order.
 
 ## Development
 
